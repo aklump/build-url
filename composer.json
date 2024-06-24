@@ -1,0 +1,24 @@
+{
+    "name": "aklump/build-url",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aaron Klump",
+            "email": "sourcecode@intheloftstudios.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "build_url.fn.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AKlump\\BuildUrl\\Tests\\Unit\\": "./tests_unit"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
