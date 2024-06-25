@@ -17,7 +17,7 @@ Provides a function to create string versions of arrays containing URL component
 1. Require this package:
    
     ```
-    composer require aklump/build-url:@dev
+    composer require aklump/build-url:^0.0
     ```
 
 ## Usage
